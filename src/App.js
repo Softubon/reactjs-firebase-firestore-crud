@@ -48,9 +48,9 @@ class App extends Component {
             <table class="table table-stripe">
               <thead>
                 <tr>
-                  <th>Title</th>
-                  <th>Description</th>
-                  <th>Author</th>
+                  <th>หัวข้องาน</th>
+                  <th>คำอธิบาย</th>
+                  <th>ผู้เขียน</th>
                 </tr>
               </thead>
               <tbody>

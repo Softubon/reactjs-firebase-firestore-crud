@@ -4,11 +4,11 @@ import firestore from 'firebase/firestore'
 const settings = {timestampsInSnapshots: true};
 
 const config = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  databaseURL: "YOUR_DATABASE_URL",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET"
+  apiKey: "AIzaSyACF72CqJarBidMVZoep2zHLaSQVkSS0EU",
+  authDomain: "newagent-47335.firebaseapp.com",
+  databaseURL: "https://newagent-47335.firebaseio.com",
+  projectId: "newagent-47335",
+  storageBucket: "newagent-47335.appspot.com"
 };
 firebase.initializeApp(config);
 
