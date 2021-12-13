@@ -37,20 +37,20 @@ class App extends Component {
   render() {
     return (
       <div class="container">
-        <div class="panel panel-default">
+        <div class="panel panel-success">
           <div class="panel-heading">
             <h3 class="panel-title">
-              BOARD LIST
+              ชั้นหนังสือสำหรับโปรแกรมเมอร์
             </h3>
           </div>
           <div class="panel-body">
-            <h4><Link to="/create" class="btn btn-primary">Add Board</Link></h4>
+            <h4><Link to="/create" class="btn btn-primary">เพิ่มหนังสือเล่มใหม่</Link></h4>
             <table class="table table-stripe">
               <thead>
                 <tr>
-                  <th>หัวข้องาน</th>
-                  <th>คำอธิบาย</th>
-                  <th>ผู้เขียน</th>
+                  <th>หมวดหนังสือ</th>
+                  <th>ชื่อหนังสือ</th>
+                  <th>ผู้แต่งหนังสือ</th>
                 </tr>
               </thead>
               <tbody>

@@ -41,20 +41,20 @@ class Show extends Component {
       <div class="container">
         <div class="panel panel-default">
           <div class="panel-heading">
-          <h4><Link to="/">Board List</Link></h4>
+          <h4><Link to="/">ชั้นหนังสือสำหรับโปรแกรมเมอร์</Link></h4>
             <h3 class="panel-title">
               {this.state.board.title}
             </h3>
           </div>
           <div class="panel-body">
             <dl>
-              <dt>Description:</dt>
+              <dt>ชื่อหนังสือ:</dt>
               <dd>{this.state.board.description}</dd>
-              <dt>Author:</dt>
+              <dt>ผู้แต่งหนังสือ:</dt>
               <dd>{this.state.board.author}</dd>
             </dl>
-            <Link to={`/edit/${this.state.key}`} class="btn btn-success">Edit</Link>&nbsp;
-            <button onClick={this.delete.bind(this, this.state.key)} class="btn btn-danger">Delete</button>
+            <Link to={`/edit/${this.state.key}`} class="btn btn-success">แก้ไขหนังสือเล่มนี้</Link>&nbsp;
+            <button onClick={this.delete.bind(this, this.state.key)} class="btn btn-danger">ลบหนังสือเล่มนี้</button>
           </div>
         </div>
       </div>

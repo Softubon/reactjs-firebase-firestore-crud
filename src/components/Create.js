@@ -49,25 +49,25 @@ class Create extends Component {
         <div class="panel panel-default">
           <div class="panel-heading">
             <h3 class="panel-title">
-              ADD BOARD
+              เพิ่มหนังสือเล่มใหม่
             </h3>
           </div>
           <div class="panel-body">
-            <h4><Link to="/" class="btn btn-primary">Book List</Link></h4>
+            <h4><Link to="/" class="btn btn-primary">ดูชั้นวางหนังสือ</Link></h4>
             <form onSubmit={this.onSubmit}>
               <div class="form-group">
-                <label for="title">Title:</label>
-                <input type="text" class="form-control" name="title" value={title} onChange={this.onChange} placeholder="Title" />
+                <label for="title">หมวดหนังสือ:</label>
+                <input type="text" class="form-control" name="title" value={title} onChange={this.onChange} placeholder="หมวดหนังสือ" />
               </div>
               <div class="form-group">
-                <label for="description">Description:</label>
-                <textArea class="form-control" name="description" onChange={this.onChange} placeholder="Description" cols="80" rows="3">{description}</textArea>
+                <label for="description">ชื่อหนังสือ:</label>
+                <textArea class="form-control" name="description" onChange={this.onChange} placeholder="ชื่อหนังสือ" cols="80" rows="3">{description}</textArea>
               </div>
               <div class="form-group">
-                <label for="author">Author:</label>
-                <input type="text" class="form-control" name="author" value={author} onChange={this.onChange} placeholder="Author" />
+                <label for="author">ผู้แต่งหนังสือ:</label>
+                <input type="text" class="form-control" name="author" value={author} onChange={this.onChange} placeholder="ผู้แต่งหนังสือ" />
               </div>
-              <button type="submit" class="btn btn-success">Submit</button>
+              <button type="submit" class="btn btn-success">เก็บเข้าชั้นหนังสือ</button>
             </form>
           </div>
         </div>
