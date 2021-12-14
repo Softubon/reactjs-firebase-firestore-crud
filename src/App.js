@@ -39,18 +39,19 @@ class App extends Component {
       <div class="container">
         <div class="panel panel-success">
           <div class="panel-heading">
+            <br/>
             <h3 class="panel-title">
-              ชั้นหนังสือสำหรับโปรแกรมเมอร์
+              ข้อมูลประกันภัยในระบบ
             </h3>
           </div>
           <div class="panel-body">
-            <h4><Link to="/create" class="btn btn-primary">เพิ่มหนังสือเล่มใหม่</Link></h4>
+            <h4><Link to="/create" class="btn btn-primary">ผู้เอาประกันภัยรายใหม่</Link></h4>
             <table class="table table-stripe">
               <thead>
                 <tr>
-                  <th>หมวดหนังสือ</th>
-                  <th>ชื่อหนังสือ</th>
-                  <th>ผู้แต่งหนังสือ</th>
+                  <th>ทะเบียนรถ</th>
+                  <th>ผู้เอาประกันภัย</th>
+                  <th>จำนวนเบี้ย</th>
                 </tr>
               </thead>
               <tbody>

@@ -66,26 +66,27 @@ class Edit extends Component {
       <div class="container">
         <div class="panel panel-default">
           <div class="panel-heading">
+          <br/>
             <h3 class="panel-title">
               แก้ไขชั้นวางหนังสือ
             </h3>
           </div>
           <div class="panel-body">
-            <h4><Link to={`/show/${this.state.key}`} class="btn btn-primary">ชั้นหนังสือสำหรับโปรแกรมเมอร์</Link></h4>
+            <h4><Link to={`/show/${this.state.key}`} class="btn btn-primary">ข้อมูลประกันภัยในระบบ</Link></h4>
             <form onSubmit={this.onSubmit}>
               <div class="form-group">
-                <label for="title">หมวดหนังสือ:</label>
-                <input type="text" class="form-control" name="title" value={this.state.title} onChange={this.onChange} placeholder="หมวดหนังสือ" />
+                <label for="title">ทะเบียนรถ:</label>
+                <input type="text" class="form-control" name="title" value={this.state.title} onChange={this.onChange} placeholder="ทะเบียนรถ" />
               </div>
               <div class="form-group">
-                <label for="description">ชื่อหนังสือ:</label>
-                <input type="text" class="form-control" name="description" value={this.state.description} onChange={this.onChange} placeholder="ชื่อหนังสือ" />
+                <label for="description">ผู้เอาประกันภัย:</label>
+                <input type="text" class="form-control" name="description" value={this.state.description} onChange={this.onChange} placeholder="ผู้เอาประกันภัย" />
               </div>
               <div class="form-group">
-                <label for="author">ผู้แต่งหนังสือ:</label>
-                <input type="text" class="form-control" name="author" value={this.state.author} onChange={this.onChange} placeholder="ผู้แต่งหนังสือ" />
+                <label for="author">เบี้ยประกันภัย:</label>
+                <input type="text" class="form-control" name="author" value={this.state.author} onChange={this.onChange} placeholder="เบี้ยประกันภัย" />
               </div>
-              <button type="submit" class="btn btn-success">Submit</button>
+              <button type="submit" class="btn btn-success">ปรับปรุงแฟ้มประวัติ</button>
             </form>
           </div>
         </div>

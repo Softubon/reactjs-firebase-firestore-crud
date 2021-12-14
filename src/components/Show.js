@@ -41,20 +41,21 @@ class Show extends Component {
       <div class="container">
         <div class="panel panel-default">
           <div class="panel-heading">
-          <h4><Link to="/">ชั้นหนังสือสำหรับโปรแกรมเมอร์</Link></h4>
+          <br/>
+          <h4><Link to="/">ข้อมูลประกันภัยในระบบ</Link></h4>
             <h3 class="panel-title">
-              {this.state.board.title}
+              ทะเบียน {this.state.board.title}
             </h3>
           </div>
           <div class="panel-body">
             <dl>
-              <dt>ชื่อหนังสือ:</dt>
+            <dt>ผู้เอาประกัน:</dt>
               <dd>{this.state.board.description}</dd>
-              <dt>ผู้แต่งหนังสือ:</dt>
+              <dt>เบี้ยประกันภัย:</dt>
               <dd>{this.state.board.author}</dd>
             </dl>
-            <Link to={`/edit/${this.state.key}`} class="btn btn-success">แก้ไขหนังสือเล่มนี้</Link>&nbsp;
-            <button onClick={this.delete.bind(this, this.state.key)} class="btn btn-danger">ลบหนังสือเล่มนี้</button>
+            <Link to={`/edit/${this.state.key}`} class="btn btn-success">แก้ไขแฟ้มประวัติ</Link>&nbsp;
+            <button onClick={this.delete.bind(this, this.state.key)} class="btn btn-danger">ลบแฟ้มประวัติ</button>
           </div>
         </div>
       </div>
